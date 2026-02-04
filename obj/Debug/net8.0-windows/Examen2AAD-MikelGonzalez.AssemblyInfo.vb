@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("Examen2AAD-MikelGonzalez"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2cb88995d2fc5b37d9427b25c4f2fe9455506ae"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ad447e7a40490c4a437faa918e2947dab2f3490"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("Examen2AAD-MikelGonzalez"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("Examen2AAD-MikelGonzalez"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

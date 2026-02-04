@@ -93,18 +93,18 @@ Partial Class Form2
         ' 
         ' btnVenderEntradas
         ' 
-        btnVenderEntradas.Location = New Point(684, 228)
+        btnVenderEntradas.Location = New Point(606, 228)
         btnVenderEntradas.Name = "btnVenderEntradas"
         btnVenderEntradas.Size = New Size(225, 141)
         btnVenderEntradas.TabIndex = 6
-        btnVenderEntradas.Text = "Vender Entradas"
+        btnVenderEntradas.Text = "Comprar Entradas"
         btnVenderEntradas.UseVisualStyleBackColor = True
         ' 
         ' Form2
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(998, 395)
+        ClientSize = New Size(859, 391)
         Controls.Add(btnVenderEntradas)
         Controls.Add(txtSinopsis)
         Controls.Add(lblPrecio)

@@ -14,7 +14,7 @@ Public Class Form1
             Dim uc As New ucPelicula()
 
             uc.lblTitulo.Text = pel.Titulo
-
+            uc.lblSala.Text = "" & pel.Sala
             Dim rutaCompleta As String = IO.Path.Combine(Application.StartupPath, pel.Imagen)
 
             If IO.File.Exists(rutaCompleta) Then

@@ -10,6 +10,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="CINE.mdf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="CINE.mdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <Import Include="System.Data" />
     <Import Include="System.Drawing" />
     <Import Include="System.Windows.Forms" />
@@ -29,9 +39,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="CINE.mdf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Update="imagenes\torrente1.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

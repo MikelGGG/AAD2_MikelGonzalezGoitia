@@ -20,7 +20,7 @@ Public Class Form3
         Dim cantidad As Integer = numCantidad.Value
         Dim total As Decimal = _pelicula.Precio * cantidad
         Dim fecha As String = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss")
-        Dim rutaProyecto As String = Path.Combine(Application.StartupPath, "..\..\..\ventas.txt")
+        Dim rutaProyecto As String = Path.Combine(Application.StartupPath, "ventas.txt")
 
         Dim lineaVenta As String = $"{fecha} | Película: {_pelicula.Titulo} | Entradas: {cantidad} | Total: {total.ToString("C")}"
 

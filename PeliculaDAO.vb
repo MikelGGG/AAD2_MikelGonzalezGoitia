@@ -8,7 +8,7 @@ Public Class PeliculaDAO
             If conn Is Nothing Then
                 Return lista
             End If
-            Dim query As String = "SELECT Id, Titulo, Anio, Duracion, Precio, Sinopsis, UrlImagen, Stock FROM Pelicula"
+            Dim query As String = "SELECT Id, Titulo, Anio, Duracion, Precio, Sinopsis, UrlImagen, Stock, Sala FROM Pelicula"
             Dim cmd As New SqlCommand(query, conn)
 
             Using reader As SqlDataReader = cmd.ExecuteReader()
@@ -22,7 +22,8 @@ Public Class PeliculaDAO
                         Convert.ToDouble(reader.GetDecimal(4)),
                         reader.GetString(5),
                         reader.GetString(6),
-                        reader.GetInt32(7)
+                        reader.GetInt32(7),
+                        reader.GetInt32(8)
                     )
                     lista.Add(p)
                 End While

@@ -24,6 +24,8 @@ Partial Class ucPelicula
     Private Sub InitializeComponent()
         pbImagen = New PictureBox()
         lblTitulo = New Label()
+        lblSala = New Label()
+        Label1 = New Label()
         CType(pbImagen, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -45,14 +47,34 @@ Partial Class ucPelicula
         lblTitulo.TabIndex = 1
         lblTitulo.Text = """"""
         ' 
+        ' lblSala
+        ' 
+        lblSala.AutoSize = True
+        lblSala.Location = New Point(201, 440)
+        lblSala.Name = "lblSala"
+        lblSala.Size = New Size(21, 20)
+        lblSala.TabIndex = 2
+        lblSala.Text = """"""
+        ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.Location = New Point(44, 440)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(117, 20)
+        Label1.TabIndex = 3
+        Label1.Text = "Numero de sala:"
+        ' 
         ' ucPelicula
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
+        Controls.Add(Label1)
+        Controls.Add(lblSala)
         Controls.Add(lblTitulo)
         Controls.Add(pbImagen)
         Name = "ucPelicula"
-        Size = New Size(338, 436)
+        Size = New Size(338, 473)
         CType(pbImagen, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
@@ -60,5 +82,7 @@ Partial Class ucPelicula
 
     Friend WithEvents pbImagen As PictureBox
     Friend WithEvents lblTitulo As Label
+    Friend WithEvents lblSala As Label
+    Friend WithEvents Label1 As Label
 
 End Class

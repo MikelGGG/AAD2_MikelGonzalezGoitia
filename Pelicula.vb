@@ -8,9 +8,10 @@
     Private _sinopsis As String
     Private _imagen As String
     Private _stock As Integer
+    Private _sala As Integer
 
     ' Constructor
-    Public Sub New(id As Integer, titulo As String, año As Integer, duracion As Integer, precio As Double, sinopsis As String, imagen As String, stock As Integer)
+    Public Sub New(id As Integer, titulo As String, año As Integer, duracion As Integer, precio As Double, sinopsis As String, imagen As String, stock As Integer, Optional sala As Integer = 1)
         Me._id = id
         Me._titulo = titulo
         Me._añoEstreno = año
@@ -19,6 +20,7 @@
         Me._sinopsis = sinopsis
         Me._imagen = imagen
         Me._stock = stock
+        Me._sala = sala
     End Sub
 
     ' Propiedades (Getters y Setters)
@@ -93,5 +95,12 @@
             _stock = value
         End Set
     End Property
-
+    Public Property Sala As Integer
+        Get
+            Return _sala
+        End Get
+        Set(value As Integer)
+            _sala = value
+        End Set
+    End Property
 End Class
