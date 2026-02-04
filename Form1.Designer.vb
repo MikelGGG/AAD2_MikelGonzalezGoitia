@@ -22,10 +22,29 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container()
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Text = "Form1"
+        flpPeliculas = New FlowLayoutPanel()
+        SuspendLayout()
+        ' 
+        ' flpPeliculas
+        ' 
+        flpPeliculas.AutoScroll = True
+        flpPeliculas.Dock = DockStyle.Fill
+        flpPeliculas.Location = New Point(0, 0)
+        flpPeliculas.Name = "flpPeliculas"
+        flpPeliculas.Size = New Size(800, 450)
+        flpPeliculas.TabIndex = 0
+        ' 
+        ' Form1
+        ' 
+        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleMode = AutoScaleMode.Font
+        ClientSize = New Size(800, 450)
+        Controls.Add(flpPeliculas)
+        Name = "Form1"
+        Text = "Form1"
+        ResumeLayout(False)
     End Sub
+
+    Friend WithEvents flpPeliculas As FlowLayoutPanel
 
 End Class
