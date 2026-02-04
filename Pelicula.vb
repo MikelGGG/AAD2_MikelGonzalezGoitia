@@ -1,19 +1,35 @@
 ﻿Public Class Pelicula
+    ' Atributos
+    Private _id As Integer
     Private _titulo As String
-    Private _añoEstreno As Date
-    Private _duracion As TimeSpan
+    Private _añoEstreno As Integer
+    Private _duracion As Integer
     Private _precio As Double
     Private _sinopsis As String
     Private _imagen As String
+    Private _stock As Integer
 
-    Public Sub New(titulo As String, añoEstreno As Date, duracion As TimeSpan, precio As Double, sinopsis As String, imagen As String)
+    ' Constructor
+    Public Sub New(id As Integer, titulo As String, año As Integer, duracion As Integer, precio As Double, sinopsis As String, imagen As String, stock As Integer)
+        Me._id = id
         Me._titulo = titulo
-        Me._añoEstreno = añoEstreno
+        Me._añoEstreno = año
         Me._duracion = duracion
         Me._precio = precio
         Me._sinopsis = sinopsis
         Me._imagen = imagen
+        Me._stock = stock
     End Sub
+
+    ' Propiedades (Getters y Setters)
+    Public Property Id As Integer
+        Get
+            Return _id
+        End Get
+        Set(value As Integer)
+            _id = value
+        End Set
+    End Property
 
     Public Property Titulo As String
         Get
@@ -24,20 +40,20 @@
         End Set
     End Property
 
-    Public Property AñoEstreno As Date
+    Public Property AñoEstreno As Integer
         Get
             Return _añoEstreno
         End Get
-        Set(value As Date)
+        Set(value As Integer)
             _añoEstreno = value
         End Set
     End Property
 
-    Public Property Duracion As TimeSpan
+    Public Property Duracion As Integer
         Get
             Return _duracion
         End Get
-        Set(value As TimeSpan)
+        Set(value As Integer)
             _duracion = value
         End Set
     End Property
@@ -60,7 +76,7 @@
         End Set
     End Property
 
-    Public Property imagen As String
+    Public Property Imagen As String
         Get
             Return _imagen
         End Get
@@ -68,4 +84,14 @@
             _imagen = value
         End Set
     End Property
+
+    Public Property Stock As Integer
+        Get
+            Return _stock
+        End Get
+        Set(value As Integer)
+            _stock = value
+        End Set
+    End Property
+
 End Class

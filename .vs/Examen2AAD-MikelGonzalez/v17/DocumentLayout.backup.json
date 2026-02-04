@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Mikel\\AaD\\VB_Consolas\\Examen2AAD-MikelGonzalez\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{47EF74AB-2299-4995-96EE-5629C02D96FF}|Examen2AAD-MikelGonzalez.vbproj|c:\\users\\mikel\\aad\\vb_consolas\\examen2aad-mikelgonzalez\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{47EF74AB-2299-4995-96EE-5629C02D96FF}|Examen2AAD-MikelGonzalez.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,18 +30,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Mikel\\AaD\\VB_Consolas\\Examen2AAD-MikelGonzalez\\Form1.vb",
-              "RelativeDocumentMoniker": "Form1.vb",
-              "ToolTip": "C:\\Users\\Mikel\\AaD\\VB_Consolas\\Examen2AAD-MikelGonzalez\\Form1.vb [Dise\u00F1o]",
-              "RelativeToolTip": "Form1.vb [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-02-04T07:06:47.299Z",
-              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
