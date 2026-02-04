@@ -1,0 +1,27 @@
+//Creación de la tabla
+CREATE TABLE Pelicula (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Titulo NVARCHAR(100) NOT NULL,
+    Anio INT NOT NULL,
+    Duracion INT NOT NULL,
+    Precio DECIMAL(10, 2) NOT NULL,
+    Sinopsis NVARCHAR(MAX),
+    UrlImagen NVARCHAR(500),
+    Stock INT NOT NULL DEFAULT 0
+);
+//Inserts a la tabla
+INSERT INTO Pelicula (Titulo, Anio, Duracion, Precio, Sinopsis, UrlImagen, Stock)
+VALUES 
+('Torrente: El brazo tonto de la ley', 1998, 97, 6.50, 'Un policía machista, racista y grosero intenta limpiar su nombre y patrullar las calles de Madrid a su manera.', 'imagenes\torrente1.jpg', 50),
+
+('Torrente 2: Misión en Marbella', 2001, 99, 7.00, 'Tras perder su fortuna, Torrente se instala en Marbella y trabaja como investigador privado. Se verá envuelto en una trama de terrorismo.', 'imagenes\torrente2.jpg', 45),
+
+('Torrente 3: El protector', 2005, 97, 7.50, 'Una popular eurodiputada llega a Madrid y Torrente es asignado para protegerla, aunque el verdadero plan es que ella sufra un atentado.', 'imagenes\torrente3.jpg', 40),
+
+('Torrente 4: Lethal Crisis', 2011, 93, 8.00, 'Torrente es encarcelado por un crimen que no cometió. En prisión ideará un plan para escapar y vengarse.', 'imagenes\torrente4.jpg', 35),
+
+('Torrente 5: Operación Eurovegas', 2014, 105, 8.50, 'Torrente sale de la cárcel en el año 2018 y planea atracar el casino de Eurovegas con un grupo de incompetentes.', 'imagenes\torrente5.jpg', 30);
+
+//Actualizacion de la tabla para meter parametro de salas
+ALTER TABLE Pelicula
+ADD Sala INT NOT NULL DEFAULT 1;
