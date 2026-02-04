@@ -28,4 +28,28 @@ Public Class PeliculaDAO
 
         Return lista
     End Function
+    Public Function ObtenerPorId(id As Integer) As Pelicula
+        Dim p As Pelicula = Nothing
+        Using conn = Datos.ObtenerConexion()
+            Dim query As String = "SELECT Id, Titulo, Anio, Duracion, Precio, Sinopsis, UrlImagen, Stock FROM Pelicula WHERE Id = @id"
+            Dim cmd As New SqlCommand(query, conn)
+            cmd.Parameters.AddWithValue("@id", id)
+
+            Using reader As SqlDataReader = cmd.ExecuteReader()
+                If reader.Read() Then
+                    p = New Pelicula(
+                        reader.GetInt32(0),
+                        reader.GetString(1),
+                        reader.GetInt32(2),
+                        reader.GetInt32(3),
+                        Convert.ToDouble(reader.GetDecimal(4)),
+                        reader.GetString(5),
+                        reader.GetString(6),
+                        reader.GetInt32(7)
+                    )
+                End If
+            End Using
+        End Using
+        Return p
+    End Function
 End Class
