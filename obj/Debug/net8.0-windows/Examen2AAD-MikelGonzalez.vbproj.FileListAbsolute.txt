@@ -1,0 +1,16 @@
+C:\Users\Mikel\AaD\VB_Consolas\Examen2AAD-MikelGonzalez\bin\Debug\net8.0-windows\Examen2AAD-MikelGonzalez.exe
+C:\Users\Mikel\AaD\VB_Consolas\Examen2AAD-MikelGonzalez\bin\Debug\net8.0-windows\Examen2AAD-MikelGonzalez.deps.json
+C:\Users\Mikel\AaD\VB_Consolas\Examen2AAD-MikelGonzalez\bin\Debug\net8.0-windows\Examen2AAD-MikelGonzalez.runtimeconfig.json
+C:\Users\Mikel\AaD\VB_Consolas\Examen2AAD-MikelGonzalez\bin\Debug\net8.0-windows\Examen2AAD-MikelGonzalez.dll
+C:\Users\Mikel\AaD\VB_Consolas\Examen2AAD-MikelGonzalez\bin\Debug\net8.0-windows\Examen2AAD-MikelGonzalez.pdb
+C:\Users\Mikel\AaD\VB_Consolas\Examen2AAD-MikelGonzalez\obj\Debug\net8.0-windows\Examen2AAD_MikelGonzalez.Form1.resources
+C:\Users\Mikel\AaD\VB_Consolas\Examen2AAD-MikelGonzalez\obj\Debug\net8.0-windows\Examen2AAD-MikelGonzalez.vbproj.GenerateResource.cache
+C:\Users\Mikel\AaD\VB_Consolas\Examen2AAD-MikelGonzalez\obj\Debug\net8.0-windows\Examen2AAD-MikelGonzalez.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mikel\AaD\VB_Consolas\Examen2AAD-MikelGonzalez\obj\Debug\net8.0-windows\Examen2AAD-MikelGonzalez.AssemblyInfoInputs.cache
+C:\Users\Mikel\AaD\VB_Consolas\Examen2AAD-MikelGonzalez\obj\Debug\net8.0-windows\Examen2AAD-MikelGonzalez.AssemblyInfo.vb
+C:\Users\Mikel\AaD\VB_Consolas\Examen2AAD-MikelGonzalez\obj\Debug\net8.0-windows\Examen2AAD-MikelGonzalez.vbproj.CoreCompileInputs.cache
+C:\Users\Mikel\AaD\VB_Consolas\Examen2AAD-MikelGonzalez\obj\Debug\net8.0-windows\Examen2AAD-MikelGonzalez.dll
+C:\Users\Mikel\AaD\VB_Consolas\Examen2AAD-MikelGonzalez\obj\Debug\net8.0-windows\refint\Examen2AAD-MikelGonzalez.dll
+C:\Users\Mikel\AaD\VB_Consolas\Examen2AAD-MikelGonzalez\obj\Debug\net8.0-windows\Examen2AAD-MikelGonzalez.pdb
+C:\Users\Mikel\AaD\VB_Consolas\Examen2AAD-MikelGonzalez\obj\Debug\net8.0-windows\Examen2AAD-MikelGonzalez.genruntimeconfig.cache
+C:\Users\Mikel\AaD\VB_Consolas\Examen2AAD-MikelGonzalez\obj\Debug\net8.0-windows\ref\Examen2AAD-MikelGonzalez.dll
