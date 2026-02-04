@@ -52,4 +52,14 @@ Public Class PeliculaDAO
         End Using
         Return p
     End Function
+    Public Function ActualizarStock(id As Integer, nuevoStock As Integer) As Boolean
+        Using conn = Datos.ObtenerConexion()
+            Dim query As String = "UPDATE Pelicula SET Stock = @stock WHERE Id = @id"
+            Dim cmd As New SqlCommand(query, conn)
+            cmd.Parameters.AddWithValue("@stock", nuevoStock)
+            cmd.Parameters.AddWithValue("@id", id)
+
+            Return cmd.ExecuteNonQuery() > 0
+        End Using
+    End Function
 End Class
