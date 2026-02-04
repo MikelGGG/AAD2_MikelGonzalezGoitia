@@ -5,6 +5,9 @@ Public Class PeliculaDAO
         Dim lista As New List(Of Pelicula)
 
         Using conn = Datos.ObtenerConexion()
+            If conn Is Nothing Then
+                Return lista
+            End If
             Dim query As String = "SELECT Id, Titulo, Anio, Duracion, Precio, Sinopsis, UrlImagen, Stock FROM Pelicula"
             Dim cmd As New SqlCommand(query, conn)
 

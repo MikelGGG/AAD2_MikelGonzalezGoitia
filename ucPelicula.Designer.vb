@@ -39,7 +39,7 @@ Partial Class ucPelicula
         ' lblTitulo
         ' 
         lblTitulo.AutoSize = True
-        lblTitulo.Location = New Point(154, 400)
+        lblTitulo.Location = New Point(44, 400)
         lblTitulo.Name = "lblTitulo"
         lblTitulo.Size = New Size(21, 20)
         lblTitulo.TabIndex = 1

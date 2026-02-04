@@ -1,4 +1,5 @@
-﻿Public Class Form1
+﻿Imports System.Diagnostics
+Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         CargarCartelera()
     End Sub
@@ -48,5 +49,23 @@
         Dim control = DirectCast(sender, Control)
         Dim idPelicula As Integer = CInt(control.Tag)
         MessageBox.Show("Has seleccionado la película con ID: " & idPelicula)
+    End Sub
+    Private Sub Form1_FormClosed(sender As Object, e As FormClosedEventArgs) Handles MyBase.FormClosed
+        Try
+            System.Data.SqlClient.SqlConnection.ClearAllPools()
+
+
+            Dim proceso As New Process()
+            proceso.StartInfo.FileName = "sqllocaldb"
+            proceso.StartInfo.Arguments = "stop MSSQLLocalDB"
+            proceso.StartInfo.WindowStyle = ProcessWindowStyle.Hidden
+            proceso.Start()
+            proceso.WaitForExit()
+        Catch ex As Exception
+        End Try
+    End Sub
+    Private Sub btnCreditos_Click(sender As Object, e As EventArgs) Handles btnCreditos.Click
+        Dim fCreditos As New FormCreditos()
+        fCreditos.ShowDialog()
     End Sub
 End Class

@@ -45,7 +45,7 @@ Partial Class Form2
         ' 
         lblTitulo.AutoSize = True
         lblTitulo.Font = New Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        lblTitulo.Location = New Point(304, 12)
+        lblTitulo.Location = New Point(317, 12)
         lblTitulo.Name = "lblTitulo"
         lblTitulo.Size = New Size(146, 54)
         lblTitulo.TabIndex = 1
@@ -54,27 +54,30 @@ Partial Class Form2
         ' lblAnio
         ' 
         lblAnio.AutoSize = True
+        lblAnio.Font = New Font("Segoe UI Semibold", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblAnio.Location = New Point(317, 85)
         lblAnio.Name = "lblAnio"
-        lblAnio.Size = New Size(53, 20)
+        lblAnio.Size = New Size(116, 46)
         lblAnio.TabIndex = 2
         lblAnio.Text = "Label1"
         ' 
         ' lblDuracion
         ' 
         lblDuracion.AutoSize = True
-        lblDuracion.Location = New Point(317, 144)
+        lblDuracion.Font = New Font("Segoe UI Semibold", 19.8000011F, FontStyle.Bold)
+        lblDuracion.Location = New Point(312, 131)
         lblDuracion.Name = "lblDuracion"
-        lblDuracion.Size = New Size(53, 20)
+        lblDuracion.Size = New Size(121, 46)
         lblDuracion.TabIndex = 3
         lblDuracion.Text = "Label2"
         ' 
         ' lblPrecio
         ' 
         lblPrecio.AutoSize = True
-        lblPrecio.Location = New Point(317, 187)
+        lblPrecio.Font = New Font("Segoe UI Semibold", 19.8000011F, FontStyle.Bold)
+        lblPrecio.Location = New Point(317, 177)
         lblPrecio.Name = "lblPrecio"
-        lblPrecio.Size = New Size(53, 20)
+        lblPrecio.Size = New Size(121, 46)
         lblPrecio.TabIndex = 4
         lblPrecio.Text = "Label3"
         ' 
@@ -85,14 +88,14 @@ Partial Class Form2
         txtSinopsis.Name = "txtSinopsis"
         txtSinopsis.ReadOnly = True
         txtSinopsis.ScrollBars = ScrollBars.Vertical
-        txtSinopsis.Size = New Size(184, 141)
+        txtSinopsis.Size = New Size(261, 141)
         txtSinopsis.TabIndex = 5
         ' 
         ' btnVenderEntradas
         ' 
-        btnVenderEntradas.Location = New Point(554, 251)
+        btnVenderEntradas.Location = New Point(684, 228)
         btnVenderEntradas.Name = "btnVenderEntradas"
-        btnVenderEntradas.Size = New Size(153, 103)
+        btnVenderEntradas.Size = New Size(225, 141)
         btnVenderEntradas.TabIndex = 6
         btnVenderEntradas.Text = "Vender Entradas"
         btnVenderEntradas.UseVisualStyleBackColor = True
@@ -101,7 +104,7 @@ Partial Class Form2
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(866, 395)
+        ClientSize = New Size(998, 395)
         Controls.Add(btnVenderEntradas)
         Controls.Add(txtSinopsis)
         Controls.Add(lblPrecio)
@@ -110,7 +113,6 @@ Partial Class Form2
         Controls.Add(lblTitulo)
         Controls.Add(pbImagenDetalle)
         Name = "Form2"
-        Text = "Form2"
         CType(pbImagenDetalle, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()

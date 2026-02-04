@@ -30,7 +30,7 @@
 
   <ItemGroup>
     <None Update="CINE.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="imagenes\torrente1.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

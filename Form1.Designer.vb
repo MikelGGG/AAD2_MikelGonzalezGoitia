@@ -23,28 +23,38 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         flpPeliculas = New FlowLayoutPanel()
+        btnCreditos = New Button()
         SuspendLayout()
         ' 
         ' flpPeliculas
         ' 
         flpPeliculas.AutoScroll = True
-        flpPeliculas.Dock = DockStyle.Fill
         flpPeliculas.Location = New Point(0, 0)
         flpPeliculas.Name = "flpPeliculas"
-        flpPeliculas.Size = New Size(800, 450)
+        flpPeliculas.Size = New Size(1096, 519)
         flpPeliculas.TabIndex = 0
+        ' 
+        ' btnCreditos
+        ' 
+        btnCreditos.Location = New Point(12, 525)
+        btnCreditos.Name = "btnCreditos"
+        btnCreditos.Size = New Size(1073, 29)
+        btnCreditos.TabIndex = 1
+        btnCreditos.Text = "Creditos"
+        btnCreditos.UseVisualStyleBackColor = True
         ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(800, 450)
+        ClientSize = New Size(1097, 566)
+        Controls.Add(btnCreditos)
         Controls.Add(flpPeliculas)
         Name = "Form1"
-        Text = "Form1"
         ResumeLayout(False)
     End Sub
 
     Friend WithEvents flpPeliculas As FlowLayoutPanel
+    Friend WithEvents btnCreditos As Button
 
 End Class

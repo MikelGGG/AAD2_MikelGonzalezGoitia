@@ -46,7 +46,7 @@ Partial Class Form3
         ' lblNombrePeli
         ' 
         lblNombrePeli.AutoSize = True
-        lblNombrePeli.Location = New Point(274, 29)
+        lblNombrePeli.Location = New Point(229, 29)
         lblNombrePeli.Name = "lblNombrePeli"
         lblNombrePeli.Size = New Size(53, 20)
         lblNombrePeli.TabIndex = 1
@@ -55,7 +55,7 @@ Partial Class Form3
         ' lblStockDisponible
         ' 
         lblStockDisponible.AutoSize = True
-        lblStockDisponible.Location = New Point(273, 93)
+        lblStockDisponible.Location = New Point(293, 93)
         lblStockDisponible.Name = "lblStockDisponible"
         lblStockDisponible.Size = New Size(53, 20)
         lblStockDisponible.TabIndex = 2
@@ -81,7 +81,7 @@ Partial Class Form3
         ' 
         ' numCantidad
         ' 
-        numCantidad.Location = New Point(273, 138)
+        numCantidad.Location = New Point(293, 138)
         numCantidad.Maximum = New Decimal(New Integer() {10, 0, 0, 0})
         numCantidad.Minimum = New Decimal(New Integer() {1, 0, 0, 0})
         numCantidad.Name = "numCantidad"
@@ -101,7 +101,7 @@ Partial Class Form3
         ' lblTotal
         ' 
         lblTotal.AutoSize = True
-        lblTotal.Location = New Point(273, 191)
+        lblTotal.Location = New Point(293, 191)
         lblTotal.Name = "lblTotal"
         lblTotal.Size = New Size(53, 20)
         lblTotal.TabIndex = 7
@@ -120,7 +120,7 @@ Partial Class Form3
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(383, 387)
+        ClientSize = New Size(455, 387)
         Controls.Add(btnComprar)
         Controls.Add(lblTotal)
         Controls.Add(Label4)
@@ -131,7 +131,6 @@ Partial Class Form3
         Controls.Add(lblNombrePeli)
         Controls.Add(Label1)
         Name = "Form3"
-        Text = "Form3"
         CType(numCantidad, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
