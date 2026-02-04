@@ -101,7 +101,7 @@ Partial Class Form2
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(768, 395)
+        ClientSize = New Size(866, 395)
         Controls.Add(btnVenderEntradas)
         Controls.Add(txtSinopsis)
         Controls.Add(lblPrecio)
